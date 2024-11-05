@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const FeedbackAndFAQSection = () => {
   // Estado para controlar o FAQ ativo
@@ -38,9 +39,11 @@ const FeedbackAndFAQSection = () => {
               key={index}
               className="bg-gray-100 p-6 rounded-lg text-left flex flex-col items-center"
             >
-              <img
+              <Image
                 src={person.image}
                 alt={person.name}
+                width={300}
+                height={400}
                 className="w-24 h-24 rounded-full mb-4"
               />
               <h3 className="text-lg font-bold text-gray-800">{person.name}</h3>

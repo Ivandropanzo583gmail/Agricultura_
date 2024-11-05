@@ -1,4 +1,4 @@
-// components/SignUpSection.js
+""
 
 import Image from 'next/image';
 
@@ -9,10 +9,13 @@ const SignUpSection = () => {
       <Image
         src="/Subscrever/Subs.png" // Substitua pelo caminho da imagem real
         alt="Background"
+        width={300}
+        height={400}
         layout="fill"
         objectFit="cover"
         quality={100}
         className="z-0"
+        
       />
 
       {/* Card de Inscrição */}

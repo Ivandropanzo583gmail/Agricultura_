@@ -10,7 +10,7 @@ export default function Citacion(){
             </div>
             <div className='md:-mt-20 block md:flex justify-center items-center'>
                 <div>
-                    <h3 className='font-bold text-black text-xl'>" We offer you quality work, safety <br></br>
+                    <h3 className='font-bold text-black text-xl'> We offer you quality work, safety <br></br>
                     and comfort in producing your <br></br>
                     products.</h3>
                     <p className='text-gray-400 mt-5'>Use our built-in analytics dashboard to pull <br></br>
